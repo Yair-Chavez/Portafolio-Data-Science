@@ -1,5 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Portafolio Profesional"
 ---
+
+# Yaír Odín Chávez Castro
+... (el resto de tu contenido)
