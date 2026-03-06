@@ -25,6 +25,7 @@
 ---
 
 ### 📫 Contacto
-* **LinkedIn:** <a href="https://www.linkedin.com/in/yair-chávez-actuary" target="_blank">Visitar mi perfil</a>
+
+* **LinkedIn:** <a href="https://www.linkedin.com/in/yaír-chávez-actuary" target="_blank">Visitar mi perfil profesional</a>
 * **Email:** <a href="mailto:yair.chavez.castro@gmail.com" target="_blank">yair.chavez.castro@gmail.com</a>
 * **WhatsApp:** <a href="https://wa.me/525520186345" target="_blank">Enviar mensaje directo</a>
