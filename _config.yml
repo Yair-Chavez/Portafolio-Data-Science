@@ -1,4 +1,17 @@
-theme: jekyll-theme-architect
-title: Yaír Odín Chávez Castro
-description: Senior Data Analyst | Actuario | MIT Applied Data Science
-show_downloads: false
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # El estilo blanco y limpio
+locale: "es-MX"
+
+# Configuración básica
+title: "Yaír Odín Chávez Castro"
+name: "Yaír Odín Chávez Castro"
+bio: "Senior Data Analyst | Actuario | Applied Data Science MIT"
+
+# Para que el README sea la página principal con el diseño correcto
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
