@@ -5,7 +5,7 @@
 
 ---
 
-### 🚀 Proyectos Destacados
+### Proyectos Destacados
 
 #### 1. Visualización Estratégica y Arquitectura de BI (IMSS)
 * **Descripción:** Diseño de ecosistemas de visualización en Power BI para la Dirección General.
@@ -17,15 +17,15 @@
 
 ---
 
-### 🛠️ Tech Stack & Herramientas
+### Tech Stack & Herramientas
 * **Análisis Avanzado:** Python (XGBoost, Clustering), SQL, R, Estadística Actuarial.
 * **Business Intelligence:** Power BI (DAX), Tableau, VBA para Excel.
 * **Certificaciones:** Applied Data Science Program (MIT), Data Visualization (PowerBI).
 
 ---
 
-### 📫 Contacto
+### Contacto
 
 * **LinkedIn:** <a href="https://www.linkedin.com/in/yaír-chávez-actuary" target="_blank">Visitar mi perfil profesional</a>
-* **Email:** <a href="mailto:yair.chavez.castro@gmail.com" target="_blank">yair.chavez.castro@gmail.com</a>
+* **Email:** <a href="mailto:Yair.Chavez.Castro@gmail.com" target="_blank">yair.chavez.castro@gmail.com</a>
 * **WhatsApp:** <a href="https://wa.me/525520186345" target="_blank">Enviar mensaje directo</a>
