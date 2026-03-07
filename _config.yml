@@ -4,7 +4,6 @@ repository: "YinRa666/Portafolio-Data-Science"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Perfil Ejecutivo"
 
-# CONFIGURACIÓN VISUAL
 minimal_mistakes_skin: "contrast"
 masthead_sticky: true
 locale: "es-MX"
