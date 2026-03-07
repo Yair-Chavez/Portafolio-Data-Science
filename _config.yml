@@ -22,7 +22,7 @@ author:
       url: "https://www.linkedin.com/in/yair-chavez-actuary"
     - label: "WhatsApp"
       icon: "fab fa-fw fa-whatsapp"
-      url: "https://wa.me/525520186345 target='_blank"
+      url: "https://wa.me/525520186345"
     - label: "Gmail"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:yair.chavez.castro@gmail.com"
@@ -49,3 +49,7 @@ external_links:
 kramdown:
   header_nodes: [h1, h2, h3, h4, h5, h6]  
   anchor_links: false
+  kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
