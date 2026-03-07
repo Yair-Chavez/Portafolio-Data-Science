@@ -5,7 +5,7 @@ repository: "YinRa666/Portafolio-Data-Science"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Apariencia y Lenguaje
-minimal_mistakes_skin: "air" # Estilo blanco y limpio (puedes probar "contrast" si lo quieres más oscuro)
+minimal_mistakes_skin: "contrast" # Estilo blanco y limpio (puedes probar "contrast" si lo quieres más oscuro)
 locale: "es-MX"
 encoding: "utf-8"
 
