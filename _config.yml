@@ -19,6 +19,7 @@ author:
     - label: "Gmail"
       icon: "fab fa-fw fa-google"
       url: "https://github.com/YinRa666"
+author_profile: true
 
 plugins:
   - jekyll-remote-theme
