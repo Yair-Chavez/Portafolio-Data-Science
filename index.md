@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Actuario, Analista de Datos Senior, Siencia de Datos Aplicada"
+title: "Actuario, Analista de Datos, Científico de Datos"
 author_profile: true
 classes: wide
 sidebar:
