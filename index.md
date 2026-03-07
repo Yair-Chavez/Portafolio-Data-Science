@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Senior Data Analyst | actuario | Applied Data Science MIT"
+title: "Actuario, Analista de Datos Senior, Siencia de Datos Aplicada"
 author_profile: true
 classes: wide
 sidebar:
