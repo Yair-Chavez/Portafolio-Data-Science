@@ -10,13 +10,13 @@ locale: "es-MX"
 
 author:
   name: "Yaír Chávez"
-  bio: "Transformar océanos de complejidad e incertidumbre en datos con valor estratégico."
-  location: "<a href='https://www.google.com/maps/place/Ciudad+de+M%C3%A9xico,+CDMX/' target='_blank'>CDMX, México</a>"  
+  bio: "Transformar océanos de complejidad e incertidumbre en datos con valor estratégico."  
+  location: "CDMX, México"
   avatar: "/assets/images/perfil-profesional.jpg"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"      
-      url: "https://www.linkedin.com/in/yair-chavez-actuary"  
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yair-chavez-actuary"
     - label: "WhatsApp"
       icon: "fab fa-fw fa-whatsapp"
       url: "https://wa.me/525520186345"
