@@ -8,7 +8,7 @@ minimal_mistakes_skin: "contrast" # <--- Esto cambiará el azul por gris oscuro/
 locale: "es-MX"
 
 author:
-  name: "Yaír Odín Chávez Castro"
+  name: "Yaír Chávez"
   bio: "Actuario | Senior Data Analyst | MIT Applied Data Science"
   location: "CDMX, México"
   avatar: "/assets/images/perfil-profesional.jpg"
