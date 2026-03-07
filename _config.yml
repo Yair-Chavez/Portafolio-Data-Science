@@ -5,7 +5,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Perfil Ejecutivo"
 
 # CONFIGURACIÓN VISUAL
-minimal_mistakes_skin: "contrast" # <--- Esto cambiará el azul por gris oscuro/negro
+minimal_mistakes_skin: "contrast"
+masthead_sticky: true
 locale: "es-MX"
 
 author:
