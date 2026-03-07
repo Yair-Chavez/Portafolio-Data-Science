@@ -11,6 +11,7 @@ author:
   name: "Yaír Odín Chávez Castro"
   bio: "Actuario | Senior Data Analyst | MIT Applied Data Science"
   location: "CDMX, México"
+  avatar: "/assets/images/perfil-profesional.jpg"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
