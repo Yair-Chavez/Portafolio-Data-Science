@@ -1,1 +1,18 @@
-remote_theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # El estilo blanco que te gustó
+locale: "es-MX"
+
+# Configuración del Sitio
+title: "Yaír Odín Chávez Castro"
+name: "Yaír Odín Chávez Castro"
+bio: "Senior Data Analyst | Actuario | Applied Data Science MIT"
+author_profile: true
+
+# Forzar a que use el layout correcto
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
