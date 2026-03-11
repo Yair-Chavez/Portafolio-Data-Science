@@ -7,34 +7,58 @@ author_profile: true
 ---
 
 <style>
-  /* 1. Mueve el menú de arriba a la izquierda */
-  .masthead__menu {
-    float: left !important;
-    margin-left: 20px !important;
+  /* 1. Recuperar el ROJO en el menú y links */
+  .masthead__menu-item:hover {
+    color: #ff0000 !important;
+    border-bottom: 2px solid #ff0000 !important;
   }
   
-  /* 2. Evita que el texto se encime en tu foto al hacer scroll */
-  .page__content {
-    padding-left: 20px !important;
-    float: right !important;
-    width: calc(100% - 10px) !important;
+  /* 2. Barra de confidencialidad en ROJO */
+  blockquote {
+    border-left: 5px solid #ff0000 !important;
+    background-color: #fff5f5 !important;
   }
 
-  /* 3. Estilo para tus cuadros de proyectos */
+  /* 3. Mover menú a la izquierda */
+  .masthead__menu {
+    float: left !important;
+    margin-left: 2rem !important;
+  }
+
+  /* 4. FIX ANTICOLISIÓN: Evita que se encime en la foto */
+  .page {
+    padding-left: 300px !important; /* Espacio reservado para tu foto */
+  }
+
+  @media (max-width: 1024px) {
+    .page { padding-left: 0 !important; }
+  }
+
+  /* 5. CUADRÍCULA DE PROYECTOS */
+  .grid-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
   .proyecto-card {
-    border: 1px solid #e1e4e8;
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 15px;
-    width: 30%;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 1.5%;
+    padding: 20px;
     background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+
+  .proyecto-card:hover {
+    border-color: #ff0000;
+    transform: translateY(-5px);
   }
 </style>
 
-<div style="text-align: justify; margin-bottom: 30px;">
+<div style="text-align: justify;">
 Como Actuario con más de 18 años de trayectoria, he liderado proyectos de alta sensibilidad estratégica para diversas instituciones financieras y organismos internacionales.
 
 > **Nota de Confidencialidad:** Debido a la naturaleza de los datos manejados y a la vigencia de contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales y análisis predictivos no pueden ser expuestos públicamente.
@@ -44,27 +68,21 @@ Como Actuario con más de 18 años de trayectoria, he liderado proyectos de alta
 
 ### Proyectos Destacados
 
-<div style="width: 100%; display: block; overflow: hidden;">
+<div class="grid-container">
   
   <div class="proyecto-card">
-    <strong><a href="/proyectos/encal/">Proyecto ENCAL</a></strong>
-    <p style="font-size: 0.85em; color: #666; margin-top: 10px;">
-      Modelación actuarial avanzada y control de calidad estructural.
-    </p>
+    <h4 style="margin: 0;"><a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">Proyecto ENCAL</a></h4>
+    <p style="font-size: 0.85em; margin-top: 10px;">Modelación actuarial avanzada y control de calidad estructural.</p>
   </div>
 
   <div class="proyecto-card">
-    <strong>Proyecto MIT 1</strong>
-    <p style="font-size: 0.85em; color: #666; margin-top: 10px;">
-      Análisis predictivo de mercados utilizando Python.
-    </p>
+    <h4 style="margin: 0; color: #333;">Proyecto MIT 1</h4>
+    <p style="font-size: 0.85em; margin-top: 10px;">Análisis predictivo de mercados utilizando Python.</p>
   </div>
 
   <div class="proyecto-card">
-    <strong>Análisis de Riesgo</strong>
-    <p style="font-size: 0.85em; color: #666; margin-top: 10px;">
-      Simulaciones estocásticas bajo cumplimiento de NDA.
-    </p>
+    <h4 style="margin: 0; color: #333;">Análisis de Riesgo</h4>
+    <p style="font-size: 0.85em; margin-top: 10px;">Simulaciones estocásticas bajo cumplimiento de NDA.</p>
   </div>
 
 </div>
