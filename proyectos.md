@@ -6,61 +6,65 @@ author_profile: true
 ---
 
 <style>
-  /* 1. Fuerza el menú Proyectos a la IZQUIERDA */
+  /* 1. FIJAR EL MENÚ ARRIBA (Sticky) */
+  .masthead {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    background: white;
+  }
+
+  /* 2. MOVER MENÚ A LA IZQUIERDA */
   .masthead__menu {
     float: left !important;
-    margin-left: 30px !important;
-  }
-  .masthead__menu-item:hover {
-    color: #ff0000 !important;
-    border-bottom: 2px solid #ff0000 !important;
+    margin-left: 3rem !important;
   }
 
-  /* 2. FIX DE ENCIMADO: Crea un muro para que no toque la foto */
-  .page__inner-wrap {
-    margin-left: 0 !important;
-    padding-left: 5% !important;
-    width: 100% !important;
+  /* 3. ELIMINAR ESPACIO EN BLANCO Y FIX DE ENCIMADO */
+  .page {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
 
-  /* 3. Estética de la nota de confidencialidad (ROJO) */
-  .nota-roja {
-    border-left: 5px solid #ff0000;
-    padding: 15px;
-    background: #fff5f5;
-    margin-bottom: 30px;
-    text-align: justify;
+  .archive, .page__content {
+    margin-left: 300px !important; /* Muro para que no toque tu foto */
+    width: auto !important;
+    max-width: 1000px !important;
   }
 
-  /* 4. LAS CAJAS (Grid) */
-  .contenedor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    width: 100%;
-  }
-
+  /* 4. ESTÉTICA ROJA Y CAJAS */
   .caja-proyecto {
     border: 1px solid #e1e4e8;
     border-radius: 8px;
     padding: 20px;
-    transition: 0.3s;
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: top;
     background: white;
+    transition: 0.3s;
   }
 
   .caja-proyecto:hover {
     border-color: #ff0000;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .nota-roja {
+    border-left: 5px solid #ff0000;
+    padding: 15px;
+    background: #fff5f5;
+    margin-bottom: 20px;
   }
 </style>
 
 <div class="nota-roja">
-  <strong>Nota de Confidencialidad:</strong> Debido a la naturaleza de los datos manejados y a la vigencia de contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales y análisis predictivos no pueden ser expuestos públicamente.
+  <strong>Nota de Confidencialidad:</strong> Debido a la naturaleza de los datos y contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales no son públicos.
 </div>
 
 ### Proyectos Destacados
 
-<div class="contenedor-grid">
+<div style="width: 100%; display: block; clear: both;">
   <div class="caja-proyecto">
     <h4 style="margin:0"><a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">Proyecto ENCAL</a></h4>
     <p style="font-size: 0.85em; margin-top:10px;">Modelación actuarial avanzada aplicada a sistemas de calidad.</p>
