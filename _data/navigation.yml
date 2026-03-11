@@ -1,3 +1,6 @@
 main:
   - title: "Proyectos"
     url: /proyectos/
+    children:
+      - title: "Proyecto ENCAL"
+        url: /proyectos/encal/
