@@ -1,82 +1,85 @@
 ---
 layout: single
+classes: wide
 title: "Portafolio de Proyectos"
 permalink: /proyectos/
 author_profile: true
 ---
 
 <style>
-  /* 1. FIJAR EL MENÚ ARRIBA (Sticky) */
+  /* 1. MENÚ: Pegado a la izquierda y siempre visible */
   .masthead {
     position: sticky !important;
     top: 0;
-    z-index: 1000;
-    background: white;
+    background: #fff !important;
+    z-index: 9999 !important;
+    border-bottom: 1px solid #eee;
   }
-
-  /* 2. MOVER MENÚ A LA IZQUIERDA */
   .masthead__menu {
     float: left !important;
     margin-left: 3rem !important;
   }
-
-  /* 3. ELIMINAR ESPACIO EN BLANCO Y FIX DE ENCIMADO */
-  .page {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+  .masthead__menu-item:hover {
+    color: #ff0000 !important;
+    border-bottom: 2px solid #ff0000 !important;
   }
 
-  .archive, .page__content {
-    margin-left: 300px !important; /* Muro para que no toque tu foto */
-    width: auto !important;
-    max-width: 1000px !important;
+  /* 2. LAYOUT: Crear el espacio real para la foto */
+  .initial-content, .page__content, .page__footer {
+    margin-left: 280px !important; /* Espacio exacto para tu sidebar */
+    position: relative;
+    z-index: 10;
   }
 
-  /* 4. ESTÉTICA ROJA Y CAJAS */
-  .caja-proyecto {
+  /* 3. CAJAS DE PROYECTOS: Estilo de tarjetas */
+  .grid-personalizado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .tarjeta {
+    flex: 1 1 280px;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    padding: 20px;
-    display: inline-block;
-    width: 30%;
-    margin-right: 2%;
-    vertical-align: top;
+    padding: 15px;
     background: white;
-    transition: 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   }
 
-  .caja-proyecto:hover {
+  .tarjeta:hover {
     border-color: #ff0000;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
-  .nota-roja {
+  /* 4. NOTA ROJA */
+  .nota-confidencial {
     border-left: 5px solid #ff0000;
     padding: 15px;
     background: #fff5f5;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 </style>
 
-<div class="nota-roja">
+<div class="nota-confidencial">
   <strong>Nota de Confidencialidad:</strong> Debido a la naturaleza de los datos y contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales no son públicos.
 </div>
 
 ### Proyectos Destacados
 
-<div style="width: 100%; display: block; clear: both;">
-  <div class="caja-proyecto">
+<div class="grid-personalizado">
+  <div class="tarjeta">
     <h4 style="margin:0"><a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">Proyecto ENCAL</a></h4>
-    <p style="font-size: 0.85em; margin-top:10px;">Modelación actuarial avanzada aplicada a sistemas de calidad.</p>
+    <p style="font-size: 0.85em; margin-top: 10px;">Modelación actuarial avanzada aplicada a sistemas de calidad.</p>
   </div>
 
-  <div class="caja-proyecto">
+  <div class="tarjeta">
     <h4 style="margin:0">Proyecto MIT 1</h4>
-    <p style="font-size: 0.85em; margin-top:10px;">Análisis predictivo de mercados utilizando Python.</p>
+    <p style="font-size: 0.85em; margin-top: 10px;">Análisis predictivo de mercados utilizando Python.</p>
   </div>
 
-  <div class="caja-proyecto">
+  <div class="tarjeta">
     <h4 style="margin:0">Análisis de Riesgo</h4>
-    <p style="font-size: 0.85em; margin-top:10px;">Simulaciones para evaluación de solvencia estratégica.</p>
+    <p style="font-size: 0.85em; margin-top: 10px;">Simulaciones para evaluación de solvencia estratégica.</p>
   </div>
 </div>
