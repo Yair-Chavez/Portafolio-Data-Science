@@ -1,85 +1,97 @@
 ---
 layout: single
-classes: wide
 title: "Portafolio de Proyectos"
 permalink: /proyectos/
 author_profile: true
 ---
 
 <style>
-  /* 1. MENÚ: Pegado a la izquierda y siempre visible */
+  /* 1. MOVER MENÚ A LA IZQUIERDA Y FIJARLO */
   .masthead {
     position: sticky !important;
     top: 0;
-    background: #fff !important;
-    z-index: 9999 !important;
-    border-bottom: 1px solid #eee;
+    z-index: 1000 !important;
+    background: white !important;
   }
   .masthead__menu {
     float: left !important;
-    margin-left: 3rem !important;
+    margin-left: 3.5rem !important; /* Ajuste para que pegue al título */
   }
   .masthead__menu-item:hover {
     color: #ff0000 !important;
     border-bottom: 2px solid #ff0000 !important;
   }
 
-  /* 2. LAYOUT: Crear el espacio real para la foto */
-  .initial-content, .page__content, .page__footer {
-    margin-left: 280px !important; /* Espacio exacto para tu sidebar */
-    position: relative;
-    z-index: 10;
+  /* 2. EL "MURO" PARA QUE NO SE ENCIME */
+  /* Aplicamos el margen a todo el contenedor principal */
+  #main {
+    display: flex !important;
+    max-width: 100% !important;
   }
 
-  /* 3. CAJAS DE PROYECTOS: Estilo de tarjetas */
-  .grid-personalizado {
+  .archive, .page__content {
+    margin-left: 50px !important; /* Espacio extra tras la foto */
+    width: 100% !important;
+    max-width: 1100px !important;
+  }
+
+  /* 3. RECUPERAR EL ROJO */
+  blockquote {
+    border-left: 5px solid #ff0000 !important;
+    background-color: #fff5f5 !important;
+    padding: 15px !important;
+    color: #333 !important;
+  }
+
+  /* 4. LAS CAJAS DE PROYECTOS (GRID) */
+  .contenedor-proyectos {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .tarjeta {
-    flex: 1 1 280px;
-    border: 1px solid #e1e4e8;
-    border-radius: 8px;
-    padding: 15px;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    gap: 20px;
+    margin-top: 30px;
   }
 
-  .tarjeta:hover {
+  .tarjeta-proyecto {
+    flex: 1 1 300px; /* Tres cajas por fila si hay espacio */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: 0.3s;
+  }
+
+  .tarjeta-proyecto:hover {
     border-color: #ff0000;
-  }
-
-  /* 4. NOTA ROJA */
-  .nota-confidencial {
-    border-left: 5px solid #ff0000;
-    padding: 15px;
-    background: #fff5f5;
-    margin-bottom: 25px;
+    transform: translateY(-5px);
   }
 </style>
 
-<div class="nota-confidencial">
-  <strong>Nota de Confidencialidad:</strong> Debido a la naturaleza de los datos y contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales no son públicos.
+<div style="text-align: justify;">
+Como Actuario con más de 17 años de trayectoria, he liderado proyectos de alta sensibilidad estratégica para diversas instituciones financieras y organismos internacionales.
+
+> **Nota de Confidencialidad:** Debido a la naturaleza de los datos manejados y a la vigencia de contratos de confidencialidad (NDA), la mayoría de mis modelos actuariales y análisis predictivos no pueden ser expuestos públicamente.
 </div>
+
+---
 
 ### Proyectos Destacados
 
-<div class="grid-personalizado">
-  <div class="tarjeta">
+<div class="contenedor-proyectos">
+  
+  <div class="tarjeta-proyecto">
     <h4 style="margin:0"><a href="/proyectos/encal/" style="color: #ff0000; text-decoration: none;">Proyecto ENCAL</a></h4>
-    <p style="font-size: 0.85em; margin-top: 10px;">Modelación actuarial avanzada aplicada a sistemas de calidad.</p>
+    <p style="font-size: 0.85em; margin-top: 10px;">Modelación actuarial avanzada aplicada a sistemas de calidad y cálculo estructural.</p>
   </div>
 
-  <div class="tarjeta">
-    <h4 style="margin:0">Proyecto MIT 1</h4>
-    <p style="font-size: 0.85em; margin-top: 10px;">Análisis predictivo de mercados utilizando Python.</p>
+  <div class="tarjeta-proyecto">
+    <h4 style="margin:0; color: #333;">Proyecto MIT 1</h4>
+    <p style="font-size: 0.85em; margin-top: 10px;">Análisis predictivo de mercados utilizando técnicas de Machine Learning.</p>
   </div>
 
-  <div class="tarjeta">
-    <h4 style="margin:0">Análisis de Riesgo</h4>
-    <p style="font-size: 0.85em; margin-top: 10px;">Simulaciones para evaluación de solvencia estratégica.</p>
+  <div class="tarjeta-proyecto">
+    <h4 style="margin:0; color: #333;">Análisis de Riesgo</h4>
+    <p style="font-size: 0.85em; margin-top: 10px;">Simulaciones Monte Carlo para evaluación de solvencia en carteras dinámicas.</p>
   </div>
+
 </div>
