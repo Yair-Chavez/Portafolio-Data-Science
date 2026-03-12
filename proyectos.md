@@ -12,44 +12,38 @@ author_profile: true
     margin-left: 3.5rem !important;
   }
 
-  /* 2. FIX DE COLUMNAS: PERFIL + TEXTO */
+  /* 2. DISTRIBUCIÓN DE ANCHO TOTAL */
   @media (min-width: 64em) {
-    /* Contenedor que abraza perfil y contenido */
+    /* Quitamos cualquier restricción del contenedor padre */
     .page__inner-wrap {
-      display: grid !important;
-      grid-template-columns: 260px 1fr !important; /* Carril fijo para foto, resto para texto */
-      grid-template-areas: "sidebar content" !important;
-      column-gap: 40px !important;
       width: 100% !important;
       max-width: 100% !important;
-    }
-
-    /* Forzar al título a ocupar todo el ancho superior */
-    .page__title {
-      grid-column: 1 / span 2 !important;
-      margin-bottom: 30px !important;
-    }
-
-    .sidebar {
-      grid-area: sidebar !important;
-      width: 260px !important;
       display: block !important;
     }
 
+    /* La foto se queda fija a la izquierda */
+    .sidebar {
+      width: 260px !important;
+      float: left !important;
+      margin-right: 50px !important;
+    }
+
+    /* El texto se expande hasta el borde derecho */
     .page__content {
-      grid-area: content !important;
-      width: 100% !important;
-      max-width: 1100px !important; /* Se estira hasta tu línea roja */
-      margin: 0 !important;
+      float: left !important;
+      width: calc(100% - 350px) !important; /* El secreto del estirón */
+      max-width: none !important;
+      padding-right: 5% !important;
     }
   }
 
-  /* 3. CAJAS DE PROYECTOS */
+  /* 3. DISEÑO DE CAJAS DE PROYECTOS */
   .grid-proyectos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
     margin-top: 30px;
+    clear: both; /* Evita que las cajas se suban a la foto */
   }
 
   .tarjeta-actuarial {
