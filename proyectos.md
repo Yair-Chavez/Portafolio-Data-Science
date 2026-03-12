@@ -16,7 +16,7 @@ classes: wide
 
 <div style="text-align: justify; font-size: 1.05em; color: #333; line-height: 1.6;">
   Como Actuario con 18 años de trayectoria, he desarrollado y estructurado soluciones de alta sensibilidad estratégica para diversos clientes nacionales e internacionales, garantizando un rigor técnico y confiabilidad estadística superior en la entrega de cada proyecto.
-  
+  <br><br>
   Debido a la naturaleza de los datos manejados y a la vigencia de acuerdos de confidencialidad (NDA), la exposición pública de mis modelos actuariales y análisis predictivos es limitada; los casos presentados a continuación representan una muestra selecta de arquitecturas de solución que respetan estrictamente dichos marcos normativos.
 </div>
 
