@@ -6,49 +6,56 @@ author_profile: true
 ---
 
 <style>
-  /* 1. MOVER MENÚ A LA IZQUIERDA */
+  /* 1. POSICIONAR MENÚ A LA IZQUIERDA */
   .masthead__menu {
     float: left !important;
     margin-left: 3.5rem !important;
   }
 
-  /* 2. FORZAR APARICIÓN DEL PERFIL Y AJUSTAR TEXTO */
-  /* Este bloque asegura que la foto NO desaparezca */
+  /* 2. SISTEMA DE COLUMNAS (Fix para el texto pegado a la derecha) */
   @media (min-width: 64em) {
-    .sidebar {
-      display: block !important; /* Fuerza la aparición de tu foto */
-      width: 250px !important;
-      float: left !important;
+    /* Contenedor principal */
+    .page__inner-wrap {
+      display: flex !important;
+      flex-direction: row !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      margin-left: 0 !important;
     }
 
-    .archive, .page__content, .page__inner-wrap {
-      margin-left: 300px !important; /* Muro de seguridad para la foto */
-      width: calc(100% - 320px) !important;
-      max-width: 100% !important;
-      padding-right: 20px !important;
+    /* Tu Foto (Sidebar) */
+    .sidebar {
+      width: 260px !important;
+      min-width: 260px !important;
+      position: relative !important;
+      margin-right: 40px !important;
+      display: block !important;
+    }
+
+    /* Tu Texto (Contenido) */
+    .page__content {
+      flex-grow: 1 !important;
+      width: auto !important;
+      max-width: 1000px !important; /* Límite para que no se pierda a la derecha */
+      padding-right: 50px !important;
     }
   }
 
   /* 3. CAJAS DE PROYECTOS */
   .grid-proyectos {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 30px;
+    width: 100%;
   }
 
   .tarjeta-actuarial {
-    flex: 1 1 300px;
     border: 1px solid #e1e4e8;
     border-radius: 12px;
     padding: 25px;
     background: #fff;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    transition: 0.3s;
-  }
-
-  .tarjeta-actuarial:hover {
-    border-color: #ff0000;
   }
 </style>
 
