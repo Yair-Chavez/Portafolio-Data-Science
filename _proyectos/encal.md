@@ -1,29 +1,43 @@
-# ENCAL 2024: Encuesta Nacional de Calidad de la Atención
+---
+layout: single
+title: "ENCAL: Estudio Nacional de Calidad de la Atención"
+permalink: /proyectos/encal/
+author_profile: true
+classes: wide
+---
 
-Como Actuario con **18 años de trayectoria**, lideré el desarrollo técnico de este proyecto, que representa el instrumento de evaluación más robusto del Instituto. Mi intervención garantizó que la toma de decisiones institucionales se basara en una **confiabilidad estadística superior**.
+<div style="text-align: justify; font-size: 1.1em; color: #333; line-height: 1.6;">
+  Como Actuario con <strong>18 años de trayectoria</strong>, lideré el desarrollo técnico de este proyecto, que representa el instrumento de evaluación más robusto de la institución. Mi intervención garantizó que la toma de decisiones estratégicas se basara en un rigor técnico y una <strong>confiabilidad estadística superior</strong>.
+</div>
 
 ---
 
-## 🛠️ Mi Contribución Técnica
-Para este proyecto, ejecuté dos pilares críticos que aseguran la integridad de los resultados:
+### 🛠️ Contribución Técnica y Alcance
+En este proyecto, ejecuté la arquitectura de datos y el diseño estadístico bajo dos pilares críticos:
 
-1. **Diseño Muestral Estratégico:** Estuve a cargo del dimensionamiento y diseño de la muestra nacional, asegurando representatividad en los tres niveles de atención y en todas las regiones del país.
-2. **Arquitectura de Datos Históricos (2009-2025):** Realicé la integración y armonización de bases de datos masivas de los últimos 16 años. Esto permitió realizar un **análisis longitudinal**, transformando datos dispersos en una serie histórica coherente para el seguimiento de indicadores.
-
----
-
-## 📈 Resultados e Indicadores Clave
-El modelo de analítica avanzada permitió identificar hallazgos estratégicos:
-
-* **Satisfacción General:** Se determinó que el **85.01%** de la población derechohabiente está satisfecha o muy satisfecha.
-* **Eficiencia por Niveles:** El tercer nivel de atención destaca con un **90.25%** de satisfacción, validando los protocolos de alta especialidad.
-* **Calidad Percibida:** Un **87.72%** de los usuarios califica la atención como excelente o buena a nivel nacional.
-* **Desempeño Regional:** El Norte del país lidera en percepción de calidad con un **90.64%**, frente a un **84.40%** en la región Centro.
+* **Diseño Muestral Estratégico:** Responsable del dimensionamiento y diseño de la muestra nacional, asegurando representatividad estadística en los tres niveles de atención y en las diversas regiones del país.
+* **Integración de Series Históricas (2009-2025):** Ejecuté la armonización y consolidación de bases de datos masivas de los últimos 16 años. Este proceso permitió realizar un **análisis longitudinal**, transformando datos dispersos en una estructura coherente para el monitoreo de indicadores de largo plazo.
 
 ---
 
-## 🛡️ Nota de Confidencialidad
-Debido a la naturaleza sensible de la información y a los acuerdos de confidencialidad (NDA) vigentes, los datos presentados aquí son un resumen de los resultados públicos. La arquitectura interna de los modelos y las bases de datos crudas permanecen bajo resguardo institucional.
+### 📊 Hallazgos Críticos (Resultados 2024)
+El modelo de analítica avanzada permitió identificar métricas clave de desempeño institucional:
+
+| Indicador | Resultado Nacional |
+| :--- | :--- |
+| **Satisfacción General (Satisfecho/Muy Satisfecho)** | **85.01%** |
+| **Calidad de la Atención (Excelente/Buena)** | **87.72%** |
+| **Trato del Personal (Excelente/Bueno)** | **91.30%** |
+| **Satisfacción en Tercer Nivel (Alta Especialidad)** | **90.25%** |
+
+#### Comparativa Regional de Calidad:
+* **Región Norte:** 90.64% (Líder en percepción de calidad).
+* **Región Centro:** 84.40% (Área de oportunidad identificada).
 
 ---
-[Regresar a Proyectos](#)
+
+### 🛡️ Nota de Confidencialidad
+Debido a la naturaleza sensible de la información y al cumplimiento estricto de los acuerdos de confidencialidad (NDA), los datos aquí expuestos corresponden a una síntesis de resultados públicos. La arquitectura interna de los modelos predictivos y las bases de datos crudas permanecen bajo resguardo institucional.
+
+---
+[« Volver al Portafolio de Proyectos](/proyectos/)
