@@ -40,4 +40,4 @@ El modelo de analítica avanzada permitió identificar métricas clave de desemp
 Debido a la naturaleza sensible de la información y al cumplimiento estricto de los acuerdos de confidencialidad (NDA), los datos aquí expuestos corresponden a una síntesis de resultados públicos. La arquitectura interna de los modelos predictivos y las bases de datos crudas permanecen bajo resguardo institucional.
 
 ---
-[« Volver al Portafolio de Proyectos](/proyectos/)
+[« Volver al Portafolio de Proyectos]({{ site.baseurl }}/proyectos/)
