@@ -1,43 +1,29 @@
----
-layout: single
-title: "ENCAL: Estudio Nacional de Calidad de la Atención"
-permalink: /proyectos/encal/
-author_profile: true
-classes: wide
----
+# ENCAL: Estudio Nacional de Calidad de la Atención (2009-2025)
 
-<div style="text-align: justify; font-size: 1.1em; color: #333; line-height: 1.6;">
-  Como Actuario con <strong>18 años de trayectoria</strong>, lideré el desarrollo técnico de este proyecto, que representa el instrumento de evaluación más robusto de la institución. Mi intervención garantizó que la toma de decisiones estratégicas se basara en un rigor técnico y una <strong>confiabilidad estadística superior</strong>.
-</div>
+## Contexto del Proyecto
+El Estudio Nacional de Calidad de la Atención (ENCAL) es el instrumento estratégico de evaluación de servicios de salud más extenso del instituto. Su objetivo es la medición multidimensional de la experiencia del usuario, integrando métricas de satisfacción, percepción de calidad técnica, tiempos de espera y trato digno.
 
----
+## Desafío Técnico y Alcance
+Mi responsabilidad consistió en la dirección técnica de la infraestructura de datos para este estudio, transformando **16 años de mediciones aisladas** en un ecosistema de análisis longitudinal coherente.
 
-### 🛠️ Contribución Técnica y Alcance
-En este proyecto, ejecuté la arquitectura de datos y el diseño estadístico bajo dos pilares críticos:
+## Contribución Técnica de Alto Nivel
 
-* **Diseño Muestral Estratégico:** Responsable del dimensionamiento y diseño de la muestra nacional, asegurando representatividad estadística en los tres niveles de atención y en las diversas regiones del país.
-* **Integración de Series Históricas (2009-2025):** Ejecuté la armonización y consolidación de bases de datos masivas de los últimos 16 años. Este proceso permitió realizar un **análisis longitudinal**, transformando datos dispersos en una estructura coherente para el monitoreo de indicadores de largo plazo.
+* **Arquitectura de Datos y Armonización Histórica:** Ejecuté la consolidación de series temporales (2009-2025), resolviendo inconsistencias estructurales entre bases de datos masivas. Este proceso de ingeniería permitió, por primera vez, el monitoreo comparativo de indicadores críticos a largo plazo.
+* **Diseño Estadístico y Muestreo:** Responsable del dimensionamiento y diseño muestral a nivel nacional. Aseguré la representatividad estadística estratificada por niveles de atención (primero, segundo y tercer nivel) y regiones geográficas, garantizando la validez de las inferencias para la toma de decisiones institucionales.
+* **Optimización de Procesamiento en Big Data:** Debido a la magnitud de los registros y las restricciones de hardware, implementé soluciones de procesamiento mediante **PySpark**. Esto permitió la manipulación de grandes volúmenes de datos directamente en disco, optimizando el uso de memoria y garantizando la escalabilidad del análisis.
 
----
+## Ecosistema Tecnológico y Visualización
+Diseñé una plataforma analítica integral en **Power BI**, utilizando **DAX avanzado** para la creación de métricas complejas de investigación de mercados.
 
-### 📊 Hallazgos Críticos (Resultados 2024)
-El modelo de analítica avanzada permitió identificar métricas clave de desempeño institucional:
-
-| Indicador | Resultado Nacional |
-| :--- | :--- |
-| **Satisfacción General (Satisfecho/Muy Satisfecho)** | **85.01%** |
-| **Calidad de la Atención (Excelente/Buena)** | **87.72%** |
-| **Trato del Personal (Excelente/Bueno)** | **91.30%** |
-| **Satisfacción en Tercer Nivel (Alta Especialidad)** | **90.25%** |
-
-#### Comparativa Regional de Calidad:
-* **Región Norte:** 90.64% (Líder en percepción de calidad).
-* **Región Centro:** 84.40% (Área de oportunidad identificada).
+* **Visualización Geoespacial:** Integración de mapas de regionalización para identificar brechas de calidad por zona geográfica.
+* **Análisis de Perfiles:** Dashboards dinámicos con segmentación demográfica de entrevistados y estatus operativo de unidades médicas.
 
 ---
+### Evidencia Técnica: Procesamiento con PySpark
+![PySpark Code Snippet](ruta-a-tu-imagen-de-pyspark.png)
 
-### 🛡️ Nota de Confidencialidad
-Debido a la naturaleza sensible de la información y al cumplimiento estricto de los acuerdos de confidencialidad (NDA), los datos aquí expuestos corresponden a una síntesis de resultados públicos. La arquitectura interna de los modelos predictivos y las bases de datos crudas permanecen bajo resguardo institucional.
+### Dashboards e Indicadores
+![ENCAL Dashboard Overview](ruta-a-tu-imagen-de-powerbi-1.png)
+![Análisis Geoespacial ENCAL](ruta-a-tu-imagen-de-powerbi-2.png)
 
----
-[« Volver al Portafolio de Proyectos]({{ site.baseurl }}/proyectos/)
+> **Nota de Confidencialidad:** El acceso al tablero interactivo original es restringido. Se pueden realizar demostraciones de las capacidades técnicas durante la entrevista bajo acuerdos de confidencialidad.
