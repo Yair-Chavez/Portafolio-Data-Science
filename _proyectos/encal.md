@@ -54,4 +54,4 @@ A continuación, se muestra un fragmento de la arquitectura de datos desarrollad
 ![PySpark Workflow]({{ site.baseurl }}/assets/images/Codigo Encal.png)
 
 ---
-[« Volver al Portafolio de Proyectos]({{ site.baseurl }}/proyectos/)
+[« Volver a Proyectos]({{ site.baseurl }}/proyectos/)
