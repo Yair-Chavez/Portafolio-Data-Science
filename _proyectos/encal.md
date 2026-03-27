@@ -14,8 +14,8 @@ Mi responsabilidad consistió en la dirección técnica de la infraestructura de
 
 ### Contribución Técnica de Alto Nivel
 
-* **Arquitectura de Datos y Armonización Histórica:** Ejecuté la consolidación de series temporales (2009-2025), resolviendo inconsistencias estructurales entre bases de datos masivas. Este proceso de ingeniería permitió, por primera vez, el monitoreo comparativo de indicadores críticos a largo plazo.
 * **Diseño Estadístico y Muestreo:** Responsable del dimensionamiento y diseño muestral a nivel nacional. Aseguré la representatividad estadística estratificada por niveles de atención y regiones geográficas, garantizando la validez de las inferencias para la toma de decisiones institucionales.
+* **Arquitectura de Datos y Armonización Histórica:** Ejecuté la consolidación de series temporales (2009-2025), resolviendo inconsistencias estructurales entre bases de datos masivas. Este proceso de ingeniería permitió, por primera vez, el monitoreo comparativo de indicadores críticos a largo plazo.
 * **Optimización de Procesamiento en Big Data:** Debido a la magnitud de los registros y las restricciones de hardware, implementé soluciones de procesamiento mediante **PySpark**. Esto permitió la manipulación de grandes volúmenes de datos directamente en disco, optimizando el uso de memoria y garantizando la escalabilidad del análisis.
 
 ### Ecosistema Tecnológico y Visualización
