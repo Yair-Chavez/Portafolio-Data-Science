@@ -6,8 +6,6 @@ author_profile: true
 classes: wide
 ---
 
-# ENCAL: Estudio Nacional de Calidad de la Atención
-
 ### Contexto del Proyecto
 El Estudio Nacional de Calidad de la Atención (ENCAL) es el instrumento estratégico de evaluación de servicios de salud más extenso del instituto. Su objetivo es la medición multidimensional de la experiencia del usuario, integrando métricas de satisfacción, percepción de calidad técnica, tiempos de espera y trato digno.
 
@@ -28,12 +26,12 @@ Diseñé una plataforma analítica integral en **Power BI**, utilizando **DAX av
 
 ---
 
-### 📊 Visualización del Tablero Final (Power BI)
+### Visualización del Tablero Final (Power BI)
 
 A continuación, se presentan capturas de pantalla de la herramienta de Business Intelligence diseñada para el monitoreo de la ENCAL.
 
 #### 1. Carátula y Resumen Ejecutivo
-Esta vista ofrece una visión general de los principales KPIs de satisfacción y calidad a nivel nacional.
+Esta vista ofrece una visión general de los principales KPIs de satisfacción y calidad a nivel nacional, integrando además el perfil demográfico de los usuarios entrevistados.
 
 ![Carátula del Tablero ENCAL]({{ site.baseurl }}/assets/images/Caratula.png)
 
@@ -45,4 +43,14 @@ Visualización longitudinal que permite identificar tendencias y evaluar el impa
 #### 3. Mapa de Regionalización
 Análisis geoespacial para la detección de brechas de calidad por zona geográfica y nivel de atención.
 
-![Mapa de Regionalización EN
+![Mapa de Regionalización ENCAL]({{ site.baseurl }}/assets/images/Mapa.png)
+
+---
+
+### Evidencia Técnica: Procesamiento con PySpark
+A continuación, se muestra un fragmento de la arquitectura de datos desarrollada para la gestión de volúmenes masivos de información.
+
+![PySpark Workflow]({{ site.baseurl }}/assets/images/pyspark_code.png)
+
+---
+[« Volver al Portafolio de Proyectos]({{ site.baseurl }}/proyectos/)
