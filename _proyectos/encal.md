@@ -19,7 +19,7 @@ Mi responsabilidad consistió en la dirección técnica de la infraestructura de
 * **Optimización de Procesamiento en Big Data:** Debido a la magnitud de los registros y las restricciones de hardware, implementé soluciones de procesamiento mediante **PySpark**. Esto permitió la manipulación de grandes volúmenes de datos directamente en disco, optimizando el uso de memoria y garantizando la escalabilidad del análisis.
 
 ### Ecosistema Tecnológico y Visualización
-Diseñé una plataforma analítica integral en **Power BI**, utilizando **DAX avanzado** para la creación de métricas complejas de investigación de mercados.
+Diseñé una plataforma analítica integral en **Power BI**, utilizando **DAX avanzado** para la creación de métricas comunes empleadas en investigación de mercados.
 
 * **Análisis de Perfiles y Cobertura:** Dashboards dinámicos con segmentación demográfica de los usuarios entrevistados y visualización detallada de las unidades médicas que integraron la muestra, especificando el volumen de entrevistas levantadas por unidad.
 * **Análisis de Series de Tiempo:** Implementación de visualizaciones dinámicas para el monitoreo de la evolución histórica de los indicadores (2009-2025), permitiendo identificar tendencias y medir el impacto de cambios en las políticas de atención a lo largo de 16 años.
