@@ -51,7 +51,7 @@ Análisis geoespacial para la detección de brechas de calidad por zona geográf
 ### Evidencia Técnica: Procesamiento con PySpark
 A continuación, se muestra un fragmento de la arquitectura de datos desarrollada para la gestión de volúmenes masivos de información.
 
-![PySpark Workflow]({{ site.baseurl }}/assets/images/pyspark_code.png)
+![PySpark Workflow]({{ site.baseurl }}/assets/images/Codigo Encal.png)
 
 ---
 [« Volver al Portafolio de Proyectos]({{ site.baseurl }}/proyectos/)
