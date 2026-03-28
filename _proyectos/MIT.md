@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Hackatón MIT: Modelo de Predicción Supervisada"
-permalink: /proyectos/encal/
+permalink: /proyectos/MIT/
 author_profile: true
 classes: wide
 ---
