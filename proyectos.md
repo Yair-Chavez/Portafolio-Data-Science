@@ -27,7 +27,7 @@ classes: wide
 <div class="grid__wrapper">
   
   <div class="grid__item">
-    <article class="archive__item" style="border: 1px solid #eee; padding: 20px; border-radius: 10px;">
+    <article class="archive__item" style="border: 3px solid #eee; padding: 20px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">        
         <a href="{{ site.baseurl }}/proyectos/encal/" style="color: #ff0000; text-decoration: none;">ENCAL</a>
       </h3>
