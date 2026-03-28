@@ -7,7 +7,7 @@ classes: wide
 ---
 
 ### Contexto del Proyecto
-El Estudio Nacional de Calidad de la Atención (ENCAL) es el instrumento estratégico de evaluación de servicios de salud más extenso del instituto. Su objetivo es la medición multidimensional de la experiencia del usuario, integrando métricas de satisfacción, percepción de calidad técnica, tiempos de espera y trato digno.
+Proyecto desarrollado como parte del curso de especialización del MIT, consistente en una competencia técnica (Hackatón) frente a múltiples equipos internacionales. El objetivo central fue el diseño y entrenamiento de un modelo de aprendizaje supervisado para predecir la variable binaria Overall Experience (Satisfactorio/No Satisfactorio). Utilizando un pipeline de preprocesamiento robusto y el algoritmo XGBoost, el modelo fue validado mediante una base de datos de prueba (test set) ciega, logrando una alta precisión en la clasificación de los inductores críticos de satisfacción del cliente.
 
 ### Desafío Técnico y Alcance
 Mi responsabilidad consistió en la dirección técnica de la infraestructura de datos para este estudio, transformando **16 años de mediciones aisladas** en un ecosistema de análisis longitudinal coherente.
