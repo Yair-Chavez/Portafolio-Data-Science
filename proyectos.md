@@ -38,7 +38,7 @@ classes: wide
   <div class="grid__item">
     <article class="archive__item" style="border: 1px solid #eee; padding: 20px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">
-        <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #ff0000; text-decoration: none;">Hackaton MIT</a>
+        <a href="{{ site.baseurl }}/proyectos/MIT/" style="color: #ff0000; text-decoration: none;">Hackatón MIT</a>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Modelo predictivo bajo estándares del MIT para clasificar la experiencia del usuario. Utiliza aprendizaje supervisado para predecir niveles de satisfacción.</p>
     </article>
   </div>
