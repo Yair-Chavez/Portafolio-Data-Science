@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ENCAL: Estudio Nacional de Calidad de la Atención"
+title: "Hackatón MIT: Modelo de Predicción Supervisada"
 permalink: /proyectos/encal/
 author_profile: true
 classes: wide
