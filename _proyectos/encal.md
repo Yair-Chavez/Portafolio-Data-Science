@@ -34,24 +34,24 @@ A continuación, se presentan capturas de pantalla de la herramienta de Business
 #### 1. Carátula y Resumen Ejecutivo
 Esta vista ofrece una visión general de los principales KPIs de satisfacción y calidad a nivel nacional, integrando además el perfil demográfico de los usuarios entrevistados.
 
-![Carátula del Tablero ENCAL]({{ site.baseurl }}/assets/images/Caratula.png)
+<img src="{{ site.baseurl }}/assets/images/Caratula.png" alt="Carátula del Tablero ENCAL" style="width:95%; display:block; margin:auto; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
 #### 2. Análisis de Serie Histórica (2009-2025)
 Visualización longitudinal que permite identificar tendencias y evaluar el impacto de políticas públicas a lo largo del tiempo.
 
-![Serie Histórica ENCAL]({{ site.baseurl }}/assets/images/Serie.png)
+<img src="{{ site.baseurl }}/assets/images/Serie.png" alt="Serie Histórica ENCAL" style="width:95%; display:block; margin:auto; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
 #### 3. Mapa de Regionalización
 Análisis geoespacial para la detección de brechas de calidad por zona geográfica y nivel de atención.
 
-![Mapa de Regionalización ENCAL]({{ site.baseurl }}/assets/images/Mapa.png)
+<img src="{{ site.baseurl }}/assets/images/Mapa.png" alt="Mapa de Regionalización ENCAL" style="width:95%; display:block; margin:auto; border-radius:8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
 ---
 
 ### Evidencia Técnica: Procesamiento con PySpark
 A continuación, se muestra un fragmento de la arquitectura de datos desarrollada para la gestión de volúmenes masivos de información.
 
-![PySpark Workflow]({{ site.baseurl }}/assets/images/Codigo Encal.png)
+<img src="{{ site.baseurl }}/assets/images/Codigo Encal.png" alt="Pipeline de ETL con PySpark" style="width:70%; display:block; margin:auto; border-radius:10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.1);">
 
 ---
 [« Volver a Proyectos]({{ site.baseurl }}/proyectos/)
