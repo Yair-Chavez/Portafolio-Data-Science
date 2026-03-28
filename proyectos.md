@@ -21,7 +21,9 @@ classes: wide
 </div>
 
 ---
+<br>
 ### Proyectos Destacados
+<br>
 
 <div class="grid__wrapper">
   
