@@ -5,6 +5,7 @@ permalink: /proyectos/
 author_profile: true
 classes: wide
 ---
+---
 
 <style>
   /* Mover menú a la izquierda - Única modificación manual necesaria */
@@ -20,10 +21,8 @@ classes: wide
   Debido a la naturaleza de los datos manejados y a la vigencia de acuerdos de confidencialidad (NDA), la exposición pública de mis modelos actuariales y análisis predictivos es limitada; los casos presentados a continuación representan una muestra selecta de arquitecturas de solución que respetan estrictamente dichos marcos normativos.
 </div>
 
----
-
 ### Proyectos Destacados
-
+---
 <div class="grid__wrapper">
   
   <div class="grid__item">
