@@ -21,8 +21,8 @@ classes: wide
 </div>
 
 ---
-<div style="margin-top: 50px;">
-  ### Proyectos Destacados
+<div style="margin-bottom: 50px;">
+  **Proyectos Destacados**
 </div>
 
 <div class="grid__wrapper">
