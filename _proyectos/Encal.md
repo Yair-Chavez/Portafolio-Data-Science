@@ -56,13 +56,3 @@ A continuación, se muestra un fragmento de la arquitectura de datos desarrollad
 
 ---
 [« Volver a Proyectos]({{ site.baseurl }}/proyectos/)
-
-<style>
-  .pagination--pager {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-</style>
