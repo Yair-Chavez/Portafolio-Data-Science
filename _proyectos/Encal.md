@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "ENCAL: Estudio Nacional de Calidad de la Atención"
-permalink: /proyectos/encal/
+permalink: /proyectos/Encal/
 author_profile: true
 classes: wide
 page_navigation: false
