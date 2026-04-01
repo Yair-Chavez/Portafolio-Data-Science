@@ -34,7 +34,7 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "proyectos"
     values:
       layout: "single"
       author_profile: true
@@ -45,6 +45,7 @@ defaults:
       related: false
       page_navigation: false
       footer: false
+      navigation: false
 
 external_links:
   target: "_blank"
