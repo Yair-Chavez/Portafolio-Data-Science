@@ -29,7 +29,7 @@ classes: wide
   <div class="grid__item">
     <article class="archive__item" style="border: 3px solid #eee; padding: 15px; border-radius: 10px;">
       <h3 class="archive__item-title" style="margin:0">        
-        <a href="{{ site.baseurl }}/proyectos/encal/" style="color: #333; text-decoration: none;">ENCAL</a>
+        <a href="{{ site.baseurl }}/proyectos/Encal/" style="color: #333; text-decoration: none;">ENCAL</a>
       </h3>
       <p class="archive__item-excerpt" style="font-size: 0.9em; margin-top: 10px;">Estudio Nacional de Calidad de la Atención, levantamiento estadístico de mayor alcance del IMSS, diseñado para capturar de forma integral la percepción de los usuarios sobre los servicios de salud brindados a nivel nacional.</p>
     </article>
